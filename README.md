@@ -25,7 +25,7 @@
    
 gcc -I include "database_generator/generate_dataset.c" -o generator.exe
 
-# Εκτέλεση
+Εκτέλεση
 .\generator.exe
 
 
@@ -34,5 +34,5 @@ gcc -I include "database_generator/generate_dataset.c" -o generator.exe
 
 gcc -I include src/*.c -o benchmark.exe
 
-# Εκτέλεση
+ Εκτέλεση
 .\benchmark.exe
