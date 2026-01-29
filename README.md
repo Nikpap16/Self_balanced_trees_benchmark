@@ -19,20 +19,18 @@
 
 
 ## 🚀 Οδηγίες Εκτέλεσης
-Η μεταγλώττιση πρέπει να γίνει από τον **κεντρικό φάκελο** του project.
 
-### 1. Προετοιμασία Δεδομένων
-Πρώτα, δημιουργήστε και τρέξτε τον generator:
-```powershell
+
+1. Προετοιμασία Δεδομένων 
 gcc -I include "database_generator/generate_dataset.c" -o generator.exe
 
 # Εκτέλεση
 .\generator.exe
 
 
-###2. Εκτέλεση Benchmark
+2. Εκτέλεση Benchmark
 
-# Χρήση του -I include για τον εντοπισμό των αρχείων κεφαλίδας
+
 gcc -I include src/*.c -o benchmark.exe
 
 # Εκτέλεση
