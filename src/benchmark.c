@@ -13,7 +13,7 @@
 #define STRESS_VALUE 10000
 
  //αποσχολιάζω σε περίπτωση που θέλω να τρέξει το stress
- #define RUN_STRESS_TEST
+ //#define RUN_STRESS_TEST
 
 int load_citizens(Citizen* citizens, int max) {
     FILE* file = fopen("../database_generator/citizens.txt", "r");
