@@ -21,18 +21,16 @@
 ## 🚀 Οδηγίες Εκτέλεσης
 
 
-##1. Προετοιμασία Δεδομένων
+# 1. Προετοιμασία Δεδομένων
    
 gcc -I include "database_generator/generate_dataset.c" -o generator.exe
 
-Εκτέλεση
-.\generator.exe
+Εκτέλεση   .\generator.exe
 
 
-##2. Εκτέλεση Benchmark
+# 2. Εκτέλεση Benchmark
 
 
 gcc -I include src/*.c -o benchmark.exe
 
- Εκτέλεση
-.\benchmark.exe
+ Εκτέλεση    .\benchmark.exe
