@@ -1,0 +1,11 @@
+MODE: STRESS TEST (10000 searches)
+----- AVERAGE TIMES AFTER 5 RUNS -----
+BST insertion: 0.001000 sec
+AVL insertion: 0.000600 sec
+RBT insertion: 0.000600 sec
+BST search:    0.002800 sec
+AVL search:    0.001800 sec
+RBT search:    0.002200 sec
+BST deletion:  0.000000 sec
+AVL deletion:  0.000200 sec
+RBT deletion:  0.000600 sec

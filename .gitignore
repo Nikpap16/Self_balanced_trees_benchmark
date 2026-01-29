@@ -1,0 +1,13 @@
+# Executables
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Word documents
+*.docx
+
+# OS generated files
+.DS_Store
+Thumbs.db
